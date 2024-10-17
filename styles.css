@@ -1,0 +1,26 @@
+body{
+    margin:0px;
+    width:100%;
+}
+
+.stats{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50vw;
+}
+
+
+.stat-box{
+    background-color: black;
+    color:white;
+    flex-grow: 1;
+}
+
+.manifesto-box{
+    background-color: black;
+    color:white;
+    height:30%;
+    flex-grow: 1;
+    height: 50vw;
+}
