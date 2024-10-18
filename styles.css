@@ -23,7 +23,7 @@ body{
 .stats-container{
     display:flex;
     flex-direction: row;
-    height: 300px;
+    height: 350px;
 }
 
 
@@ -41,26 +41,39 @@ body{
 }
 
 .one{
-    border-right: white 1px solid;
-    border-bottom: white 1px solid;
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Logo_Soul.png/640px-Logo_Soul.png);
-    background-size: cover;
-    background-position: center;
+    border-right: white .5px solid;
+    border-bottom: white .5px solid;
+    background: url(https://i.imgur.com/cgFP9qC.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
 .two{
-    border-left: white 1px solid;
-    border-bottom: white 1px solid;
+    border-left: white .5px solid;
+    border-bottom: white .5px solid;
+    background: url(https://i.imgur.com/LK3RQW3.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
 .three{
-    border-right: white 1px solid;
-    border-top: white 1px solid;
+    border-right: white .5px solid;
+    border-top: white .5px solid;
+    background: url(https://i.imgur.com/8sNR1tk.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
 .four{
-    border-left: white 1px solid;
-    border-top: white 1px solid;
+    border-left: white .5px solid;
+    border-top: white .5px solid;
+    background: url(https://i.imgur.com/cG5ogMl.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
 
@@ -70,14 +83,15 @@ body{
 .manifesto-container{
     display:flex;
     flex-direction: row;
-    height: 300px;
+    height: 500px;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
 }
 
 .manifesto-box{
-    flex-grow: 1;
+    flex-grow: 3;
     margin: 0px;
     color: white;
-    width:100%;
     padding-left: 80px;
     padding-right: 80px;
 
@@ -85,10 +99,27 @@ body{
     text-align: center;
     justify-content: center;
 
-    border-top: white solid 1px;
+    background: url(https://i.imgur.com/cgFP9qC.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position-y: 15%;
+    background-size: 200%; 
+}
+
+.manifesto-empty{
+    flex-grow:1
 }
 
 
+
+.empty-one{
+    border-right: white 1px solid;
+}
+
+.empty-two{
+    border-left: white 1px solid;
+}
 
 
 
@@ -104,4 +135,72 @@ body{
     font-family: "articulat-cf", sans-serif;
     font-weight: 800;
     font-style: normal;
+}
+
+.manifesto-name{
+    line-height: 30px;
+    margin:0px;
+    font-size: 25px;
+}
+
+.manifesto-title{
+    margin:0px;
+    font-size: 25px;
+}
+
+
+
+.others-container{
+    display:flex;
+    flex-direction: row;
+    height: 400px;
+    border-bottom:white 1px solid;
+}
+
+.others-empty{
+    flex-grow: 1;
+}
+
+.others-box{
+    flex-grow: 2;
+
+    margin: 0px;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+
+    background: url(https://i.imgur.com/LK3RQW3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position-y: -5%;
+    background-size: 200%; 
+}
+
+.others-title{
+    border-bottom: 1px white solid;
+}
+
+.others-content{
+    padding-top:20px;
+}
+
+
+
+.designer-box{
+    margin: 0px;
+    color: white;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 10px;
+
+    align-content: center;
+    text-align: center;
+    justify-content: center;
 }
