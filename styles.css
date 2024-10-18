@@ -168,12 +168,8 @@ body{
     border-bottom:white 1px solid;
 }
 
-.others-empty{
-    flex-grow: 1;
-}
-
 .others-box{
-    width:60%;
+    width:100%;
 
     margin: 0px;
     color: white;
@@ -189,7 +185,7 @@ body{
     background-repeat: no-repeat;
     background-position:center;
     background-position-y: -20%;
-    background-size: 300%; 
+    background-size: 200%; 
 }
 
 .others-box .regular{
