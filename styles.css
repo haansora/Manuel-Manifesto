@@ -32,13 +32,19 @@ body{
     margin: 0px;
     color: white;
     width:50%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     align-content: center;
     text-align: center;
     justify-content: center;
 }
+
+.stat-box .bold{
+    font-size: 15px;
+    line-height: 20px;
+}
+
 
 .one{
     border-right: white .5px solid;
@@ -89,11 +95,11 @@ body{
 }
 
 .manifesto-box{
-    flex-grow: 3;
+    width:80%;
     margin: 0px;
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     align-content: center;
     text-align: center;
@@ -103,13 +109,15 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
-    background-position-y: 15%;
-    background-size: 200%; 
+    background-position-y: 13%;
+    background-size: 300%; 
 }
 
 .manifesto-empty{
     flex-grow:1
 }
+
+
 
 
 
@@ -146,7 +154,10 @@ body{
 .manifesto-title{
     margin:0px;
     font-size: 25px;
+    line-height: 35px;
 }
+
+
 
 
 
@@ -162,12 +173,12 @@ body{
 }
 
 .others-box{
-    flex-grow: 2;
+    width:60%;
 
     margin: 0px;
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     align-content: center;
     text-align: center;
@@ -177,8 +188,12 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
-    background-position-y: -5%;
-    background-size: 200%; 
+    background-position-y: -20%;
+    background-size: 300%; 
+}
+
+.others-box .regular{
+    line-height: 20px;
 }
 
 .others-title{
