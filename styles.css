@@ -163,7 +163,7 @@ body{
 .others-container{
     display:flex;
     flex-direction: row;
-    height: 600px;
+    height: 700px;
     border-bottom:white 1px solid;
 }
 
@@ -198,8 +198,8 @@ body{
 
 .others-content .bold{
     border: white solid 1px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
 
