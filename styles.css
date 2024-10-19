@@ -45,8 +45,6 @@ body{
     line-height: 25px;
 }
 
-
-
 .one{
     border-right: white .5px solid;
     border-bottom: white .5px solid;
@@ -90,7 +88,7 @@ body{
 .manifesto-container{
     display:flex;
     flex-direction: row;
-    height: 500px;
+    height: 600px;
     border-top: white solid 1px;
     border-bottom: white solid 1px;
 }
@@ -165,7 +163,7 @@ body{
 .others-container{
     display:flex;
     flex-direction: row;
-    height: 400px;
+    height: 600px;
     border-bottom:white 1px solid;
 }
 
@@ -185,7 +183,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
-    background-position-y: -10%;
+    background-position-y: -20%;
     background-size: 200%; 
 }
 
